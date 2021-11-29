@@ -1,0 +1,4 @@
+#!/bin/bash
+cmake -S src/ -B build/	# configs from the cmake file in src/ and put into build/
+cmake --build build/	# build inside the build/ folder
+./build/main		# run the main file that just got compiled
